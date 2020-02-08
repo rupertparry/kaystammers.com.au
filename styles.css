@@ -1,0 +1,98 @@
+:root {
+  --primary-color: #0b7a29;
+  --primary-color-alt: #16a659;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  background: #fffef7;
+  color: #302e1a;
+}
+
+.container {
+  max-width: 840px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+figure {
+  float: right;
+  width: min-content;
+  padding: 10px;
+  margin: 15px;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.12);
+}
+
+figure.left {
+  float: left;
+}
+
+figure a {
+  background: none;
+}
+
+figcaption {
+  font-size: 10px;
+  color: #555;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  padding-right: 30px;
+}
+
+nav a {
+  font-family: "Gelasio", serif;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+a {
+  color: var(--primary-color-alt);
+  background: #fffcd1;
+}
+
+a:hover {
+  color: var(--primary-color);
+  background: none;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Gelasio", serif;
+  font-weight: normal;
+  color: var(--primary-color);
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 25px;
+  font-style: italic;
+}
+
+@media screen and (max-width: 840px) {
+  figure,
+  figure.left {
+    float: none;
+    margin: 0 auto;
+  }
+}
