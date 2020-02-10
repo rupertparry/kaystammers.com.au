@@ -109,11 +109,13 @@ h1 {
 
 h2 {
   font-size: 25px;
+  padding-top: 40px;
   font-style: italic;
 }
 
 aside {
   background: #f9f5e9;
+  margin-top: 50px;
   padding: 5px 20px;
 }
 
