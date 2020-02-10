@@ -112,6 +112,9 @@ h2 {
   padding-top: 40px;
   font-style: italic;
 }
+h2.subtitle {
+  padding-top: 0;
+}
 
 aside {
   background: #f9f5e9;
