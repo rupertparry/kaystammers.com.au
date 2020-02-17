@@ -12,6 +12,11 @@ body {
   justify-content: space-around;
   background: var(--background-color);
   color: #302e1a;
+  padding-bottom: 150px;
+}
+
+.summary-split {
+  margin-bottom: 30px;
 }
 
 .container {
@@ -120,7 +125,7 @@ h1 {
 
 h2 {
   font-size: 25px;
-  padding-top: 40px;
+  padding-top: 30px;
   font-style: italic;
 }
 h2.subtitle {
